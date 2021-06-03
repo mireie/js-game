@@ -40,6 +40,13 @@ $(document).ready(function() {
       $(".hidden").show();
       $(".roll").slideToggle();
     }
+    if (currentWidth === 100 ) {
+      $("#winner").text("You Win!");
+    }
+    if (currentWidth2 === 100) {
+      $(".hidden").show();
+      $("#winner").text("Your Mortal Enemy Wins!");
+    }
   });
 
   $("button#reset").click(function() {
