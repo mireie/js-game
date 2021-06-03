@@ -1,0 +1,70 @@
+body {
+  background-image: url("img/bg.png");
+  background-size: contain;
+  background-repeat: repeat;
+}
+.container {
+  max-width: 90%;
+}
+
+#myProgress {
+  width: 100%;
+  background-color: rgb(219, 132, 132);
+}
+
+#myBar {
+  width: 0%;
+  height: 30px;
+  background-color: #4fce9f;
+  border-top-right-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+}
+
+#enemyProgress {
+  width: 100%;
+  background-color: rgb(80, 67, 199);
+}
+
+#enemyBar {
+  width: 0%;
+  height: 30px;
+  background-color: #4fce9f;
+  border-top-right-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+}
+
+.roll img {
+  display: block;
+  margin: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.roll p {
+  font-weight:bolder;
+  font-size:1.5em;
+  text-align: center;
+}
+.roll span {
+  font-size:1.5em;
+}
+.protaganist {
+  background-color:rgb(219, 132, 132)
+}
+.enemy {
+  background-color:rgb(80, 67, 199);
+}
+#progress {
+  padding 1em;
+  margin:1em;
+}
+#coolplayer, #enemyplayer {
+  text-align: center;
+  margin:auto;
+  display:block;
+  padding-bottom:1em;
+  font-size:1.5rem;
+  font-weight:bolder;
+}
