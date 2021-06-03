@@ -38,6 +38,7 @@ $(document).ready(function() {
     
     if (currentWidth === 100 || currentWidth2 === 100) {
       $(".hidden").show();
+      $(".roll").slideToggle();
     }
   });
 
@@ -47,5 +48,6 @@ $(document).ready(function() {
     let currentWidth2 = 0;
     $("#myBar").width(currentWidth + "%");
     $("#enemyBar").width(currentWidth2 + "%");
+    $(".roll").slideToggle();
   });
 });
