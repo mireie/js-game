@@ -57,7 +57,7 @@ body {
   background-color:rgb(80, 67, 199);
 }
 #progress {
-  padding 1em;
+  padding: 1em;
   margin:1em;
 }
 #coolplayer, #enemyplayer {
